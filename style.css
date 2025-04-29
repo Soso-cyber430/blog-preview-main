@@ -38,36 +38,9 @@
     border: 2px solid hsl(47, 88%, 63%);
     position: relative; 
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2); 
+    border-right-width: 6px;
+    border-color: black;
   }
-  
-  .card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -6px; 
-    width: 14px; 
-    height: 100%;
-    background-color: black; 
-    border-top-right-radius: 20px; 
-    border-bottom-right-radius: 20px; 
-    z-index: -1;
-  }
-  
-  .card::before {
-    content: "";
-    position: absolute;
-    bottom: -6px; 
-    left: 0;
-    width: 100%;
-    height: 10px; 
-    background-color: black;
-    border-bottom-left-radius: 20px; 
-    border-bottom-right-radius: 20px; 
-    z-index: -1;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  }
-  
-  
  
   .main-img {
     width: 100%;
