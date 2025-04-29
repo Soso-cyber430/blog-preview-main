@@ -30,16 +30,6 @@
 
 ---
 
-## 📱 Mobile Responsiveness
-
-Currently in-progress 🛠️  
-To improve mobile UX:
-- Add `<meta name="viewport">` to your HTML `<head>`.
-- Implement media queries for dynamic layout adjustments.
-- Use relative units (`em`, `%`, `vw`) over fixed ones.
-
----
-
 ## 🧰 How to Use
 
 Clone the repository and open it in your browser:
